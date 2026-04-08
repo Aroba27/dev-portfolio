@@ -1,0 +1,52 @@
+{
+    "experience": [
+      {
+        "id": 1,
+        "time": "08, 2024 - 12,2024",
+        "title": "Glowlogix",
+        "role": "Frontend Developer",
+        "description": "In this role I developed Figma designs into visually amazing & fully responsive websites by using advance CSS3 & JS libraries for creating microinteractions & animations. My responsibilties also includes restoring HTML & Wordpress sites from web archive."
+      },
+       {
+        "id": 2,
+        "time": "01, 2025 - 02, 2025",
+        "title": "Codek Technologies",
+        "role": "React Developer Internee",
+        "description": "Built the user interface of SimlessPay and gain hands-on experience in React. Worked on component based architecture, reuseable UI patterns, and writing clean, maintainable code."
+      },
+       {
+        "id": 3,
+        "time": "07, 2025 - 09, 2025",
+        "title": "Nexthon",
+        "role": "React/ Next JS Internee",
+        "description": "Contributed to a Learning Management System Project using React and Next JS. Focused on performance, responsiveness, and clean architecture to deliver a seamless user experience."
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "time": "2021 - 2022",
+        "title": "Responsive Web Design",
+        "description": "FreeCodeCamp"
+      },
+      {
+        "id": 2,
+        "time": "2023 - 2024",
+        "title": "Conquering Responsive Layouts",
+        "description": "Kevin Powell"
+      },
+      {
+        "id": 3,
+        "time": "2023 - 2024",
+        "title": "Principles of UI/UX Design",
+        "description": "Coursera"
+      },
+      {
+        "id": 4,
+        "time": "2019 - 2023",
+        "title": "BS Chemistry",
+        "description": "University of Sargodha"
+      }
+    ]
+  }
+  
