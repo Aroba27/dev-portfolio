@@ -3,6 +3,33 @@ import { useState } from "react";
 const projects = [
   {
     id: 1,
+    title: "Shopsphere",
+    description:
+      "ShopSphere Dashboard is a modern, responsive admin panel for managing products, orders, users, and settings through a clean and intuitive interface.",
+    link: "https://shopsphere-dashboard.netlify.app/",
+    category: "React JS",
+    image: "/project-06.PNG",
+  },
+  {
+    id: 2,
+    title: "SimlessPay",
+    description:
+      "Built a responsive and intuitive user interface for SimlessPay, a secure digital payment platform, focusing on performance, scalability, and seamless user experience.",
+    link: "https://simlesspay.com/",
+    category: "React JS",
+    image: "/project-07.PNG",
+  },
+   {
+    id: 3,
+    title: "MyStore",
+    description:
+      "Built a responsive product browsing application with a modern homepage and dynamic product listing page with categorized listings, smart filtering, and sorting functionality.",
+    link: "https://mymodernstore.netlify.app/",
+    category: "React JS",
+    image: "/project-008.PNG",
+  },
+  {
+    id: 4,
     title: "Catch Pokemon",
     description:
       "Developed a Pokémon search website using React to reinforce component-based architecture and state management concepts.",
@@ -11,7 +38,7 @@ const projects = [
     image: "/project-1.png",
   },
   {
-    id: 2,
+    id: 5,
     title: "World Atlas",
     description:
       "Built an interactive World Atlas website showcasing detailed country information with sortable search and continent filters. Developed using React with a focus on reusable components, efficient state management, and responsive design.",
@@ -20,7 +47,7 @@ const projects = [
     image: "/project-2.png",
   },
   {
-    id: 3,
+    id: 6,
     title: "Resturant Website",
     description:
       "Converted a restaurant Figma design into a fully responsive, multi-purpose website template using HTML, CSS, Bootstrap, and JavaScript. Built clean, scalable UI components and responsive sections to ensure a seamless experience across all devices.",
@@ -29,7 +56,7 @@ const projects = [
     image: "/project-3.png",
   },
   {
-    id: 4,
+    id: 7,
     title: "Gym Website",
     description:
       "Converted a fitness-focused Figma design into a fully responsive website using HTML, CSS, and Bootstrap. Incorporated smooth microinteractions, hover states, and transitions to elevate user experience and create a more interactive, modern interface.",
@@ -38,7 +65,7 @@ const projects = [
     image: "/project-4.png",
   },
   {
-    id: 5,
+    id: 8,
     title: "Wayback Downloaders",
     description:
       "Converted a multi-page Figma design into a fully responsive, production-ready website. Focused on delivering pixel-perfect UI with clean, well-structured HTML and modern CSS practices.",
@@ -46,15 +73,7 @@ const projects = [
     category: "CSS / JS",
     image: "/project-5.png",
   },
-  {
-    id: 6,
-    title: "SimlessPay",
-    description:
-      "Built a responsive and intuitive user interface for SimlessPay, a secure digital payment platform, focusing on performance, scalability, and seamless user experience.",
-    link: "https://simlesspay.com/",
-    category: "React JS",
-    image: "/project-07.PNG",
-  },
+  
 ];
 
 export const Work = () => {
