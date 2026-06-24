@@ -19,23 +19,23 @@ const projects = [
     category: "React JS",
     image: "/project-07.PNG",
   },
-   {
+  {
     id: 3,
+    title: "DigiTech Website",
+    description:
+      "Developed a visually compelling agency website with Next.js, combining modern design, optimized performance, and intuitive user flows to create a strong digital presence and enhance client conversion opportunities.",
+    link: "https://digitech-agency.netlify.app/",
+    category: "React JS",
+    image: "/project-000.png",
+  },
+  {
+    id: 4,
     title: "MyStore",
     description:
       "Built a responsive product browsing application with a modern homepage and dynamic product listing page with categorized listings, smart filtering, and sorting functionality.",
     link: "https://mymodernstore.netlify.app/",
     category: "React JS",
     image: "/project-008.PNG",
-  },
-  {
-    id: 4,
-    title: "Catch Pokemon",
-    description:
-      "Developed a Pokémon search website using React to reinforce component-based architecture and state management concepts.",
-    link: "https://catch-apokemon.netlify.app/",
-    category: "React JS",
-    image: "/project-1.png",
   },
   {
     id: 5,
@@ -73,7 +73,6 @@ const projects = [
     category: "CSS / JS",
     image: "/project-5.png",
   },
-  
 ];
 
 export const Work = () => {
@@ -131,7 +130,19 @@ export const Work = () => {
                     className="w-full h-full object-cover"
                   />
 
-                  <div className="absolute bottom-0 left-0 right-0 px-4 py-3 bg-linear-to-r from-[#8750f7] to-[#2a1454] bg-opacity-90 text-white rounded-b-md opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div
+  className="
+    hidden md:block
+    absolute bottom-0 left-0 right-0
+    px-4 py-3
+    bg-gradient-to-r from-[#8750f7] to-[#2a1454]
+    text-white
+    rounded-b-md
+    opacity-0
+    group-hover:opacity-100
+    transition-opacity
+  "
+>
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="text-xl font-bold">{project.title}</h3>
                       <a
@@ -160,7 +171,37 @@ export const Work = () => {
                   </div>
                 </div>
               </div>
+              <div className="block md:hidden p-5">
+  <h3 className="text-xl font-bold text-white">
+    {project.title}
+  </h3>
+
+  <p className="mt-2 text-gray-400 text-sm">
+    {project.description}
+  </p>
+
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex items-center
+      mt-4
+      px-4 py-2
+      rounded-full
+      bg-[#8750f7]
+      text-white
+      text-sm
+      font-medium
+      hover:bg-[#9b6cff]
+      transition-colors
+    "
+  >
+    View Live Project
+  </a>
+</div>
             </div>
+   
           ))}
         </div>
       </div>
