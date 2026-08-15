@@ -3,7 +3,25 @@ import { useState } from "react";
 const projects = [
   {
     id: 1,
-    title: "Shopsphere",
+    title: "Forever Collections",
+    description:
+      "Forever Collections is a full-featured e-commerce website with product categories and price filters, latest and best-selling collections, and complete cart, order placement, and checkout functionality, along with dedicated About and Contact pages.",
+    link: "https://forever-collections.netlify.app/",
+    category: "React JS",
+    image: "/project-001.PNG",
+  },
+   {
+    id: 2,
+    title: "Digital Agency Website",
+    description:
+      "Digital Agency Website is a modern, responsive agency website built with React and Tailwind CSS, featuring smooth Framer Motion animations, interactive hover effects, and a functional contact form that sends client inquiries directly to the admin’s email.",
+    link: "https://agencydigitalwebsite.netlify.app/",
+    category: "React JS",
+    image: "/project-02.PNG",
+  },
+  {
+    id: 3,
+    title: "Shopsphere Dashboard",
     description:
       "ShopSphere Dashboard is a modern, responsive admin panel for managing products, orders, users, and settings through a clean and intuitive interface.",
     link: "https://shopsphere-dashboard.netlify.app/",
@@ -11,7 +29,7 @@ const projects = [
     image: "/project-06.PNG",
   },
   {
-    id: 2,
+    id: 4,
     title: "SimlessPay",
     description:
       "Built a responsive and intuitive user interface for SimlessPay, a secure digital payment platform, focusing on performance, scalability, and seamless user experience.",
@@ -20,31 +38,13 @@ const projects = [
     image: "/project-07.PNG",
   },
   {
-    id: 3,
+    id: 5,
     title: "DigiTech Website",
     description:
       "Developed a visually compelling agency website with Next.js, combining modern design, optimized performance, and intuitive user flows to create a strong digital presence and enhance client conversion opportunities.",
     link: "https://digitech-agency.netlify.app/",
     category: "React JS",
     image: "/project-000.png",
-  },
-  {
-    id: 4,
-    title: "MyStore",
-    description:
-      "Built a responsive product browsing application with a modern homepage and dynamic product listing page with categorized listings, smart filtering, and sorting functionality.",
-    link: "https://mymodernstore.netlify.app/",
-    category: "React JS",
-    image: "/project-008.PNG",
-  },
-  {
-    id: 5,
-    title: "World Atlas",
-    description:
-      "Built an interactive World Atlas website showcasing detailed country information with sortable search and continent filters. Developed using React with a focus on reusable components, efficient state management, and responsive design.",
-    link: "https://react-world90.netlify.app/",
-    category: "React JS",
-    image: "/project-2.png",
   },
   {
     id: 6,
@@ -135,7 +135,7 @@ export const Work = () => {
     hidden md:block
     absolute bottom-0 left-0 right-0
     px-4 py-3
-    bg-gradient-to-r from-[#8750f7] to-[#2a1454]
+    bg-linear-to-r from-[#8750f7] to-[#2a1454]
     text-white
     rounded-b-md
     opacity-0
